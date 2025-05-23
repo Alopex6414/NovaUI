@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import sys
-from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QVBoxLayout, QPushButton, QHBoxLayout
+from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QVBoxLayout, QPushButton, QHBoxLayout, QCommandLinkButton
 from PyQt6 import QtCore
 
 
@@ -18,6 +18,7 @@ class LoginWindow(QWidget):
         self.password_edit = QLineEdit()
         self.login_button = QPushButton("Login")
         self.exit_button = QPushButton("Exit")
+        self.create_account_button = QCommandLinkButton("Create Account")
         layout_button = QHBoxLayout()
         layout_button.addWidget(self.login_button)
         layout_button.addWidget(self.exit_button)
@@ -28,6 +29,7 @@ class LoginWindow(QWidget):
         layout.addWidget(self.password_label)
         layout.addWidget(self.password_edit)
         layout.addLayout(layout_button)
+        layout.addWidget(self.create_account_button)
         self.setLayout(layout)
 
 if __name__ == '__main__':
