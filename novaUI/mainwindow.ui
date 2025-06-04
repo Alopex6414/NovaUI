@@ -13,6 +13,12 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="dockOptions">
+   <set>QMainWindow::DockOption::AllowTabbedDocks|QMainWindow::DockOption::AnimatedDocks</set>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
   <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -23,6 +29,30 @@
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuNovaUI">
+    <property name="title">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuClassify">
+    <property name="title">
+     <string>Classification</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuDiscovery">
+    <property name="title">
+     <string>Discovery</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuMy_App">
+    <property name="title">
+     <string>My App</string>
+    </property>
+   </widget>
+   <addaction name="menuNovaUI"/>
+   <addaction name="menuClassify"/>
+   <addaction name="menuDiscovery"/>
+   <addaction name="menuMy_App"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
