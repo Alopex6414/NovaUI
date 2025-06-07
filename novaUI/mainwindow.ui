@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>640</width>
-    <height>480</height>
+    <height>387</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -41,7 +41,7 @@
       <x>10</x>
       <y>10</y>
       <width>621</width>
-      <height>461</height>
+      <height>361</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -51,6 +51,257 @@
      <attribute name="title">
       <string>Home</string>
      </attribute>
+     <widget class="QGroupBox" name="groupBoxCategory">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>9</y>
+        <width>601</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Test Category</string>
+      </property>
+      <widget class="QLabel" name="labelTest">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>54</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Test:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxTest">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>40</y>
+         <width>145</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxSubject">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>40</y>
+         <width>145</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelSubject">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>40</y>
+         <width>54</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Subject:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxLevel">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>40</y>
+         <width>145</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelLevel">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>40</y>
+         <width>54</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Level:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>601</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Test Mode</string>
+      </property>
+      <widget class="QPushButton" name="pushButtonOrder">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Order Practise</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonRandom">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>30</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Random Practice</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonSimulate">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Simulate Exam</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonSelected">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>60</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Selected Questions</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonMock">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Real Test Mock</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonChapter">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>90</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Chapter Exercisse</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonType">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Type Exercise</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonPre">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>120</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pre-Exam Questions</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonPast">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>150</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Past Year Test</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonMistake">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>150</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Easy Mistake Questions</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonDocument">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>180</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Document Download</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonSearch">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>180</y>
+         <width>281</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Search Questions</string>
+       </property>
+      </widget>
+     </widget>
     </widget>
     <widget class="QWidget" name="tabMyApp">
      <attribute name="title">
