@@ -6,12 +6,27 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>640</width>
+    <height>480</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>NovaUI</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>22</width>
+    <height>24</height>
+   </size>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
   </property>
   <property name="dockOptions">
    <set>QMainWindow::DockOption::AllowTabbedDocks|QMainWindow::DockOption::AnimatedDocks</set>
@@ -19,42 +34,31 @@
   <property name="unifiedTitleAndToolBarOnMac">
    <bool>false</bool>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuNovaUI">
-    <property name="title">
-     <string>Home</string>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>621</width>
+      <height>461</height>
+     </rect>
     </property>
-   </widget>
-   <widget class="QMenu" name="menuClassify">
-    <property name="title">
-     <string>Classification</string>
+    <property name="currentIndex">
+     <number>0</number>
     </property>
+    <widget class="QWidget" name="tabHome">
+     <attribute name="title">
+      <string>Home</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabMyApp">
+     <attribute name="title">
+      <string>My App</string>
+     </attribute>
+    </widget>
    </widget>
-   <widget class="QMenu" name="menuDiscovery">
-    <property name="title">
-     <string>Discovery</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menuMy_App">
-    <property name="title">
-     <string>My App</string>
-    </property>
-   </widget>
-   <addaction name="menuNovaUI"/>
-   <addaction name="menuClassify"/>
-   <addaction name="menuDiscovery"/>
-   <addaction name="menuMy_App"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
