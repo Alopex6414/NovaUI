@@ -17,6 +17,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_comboBoxTest_currentIndexChanged(int index);
+
+    void on_comboBoxLevel_currentIndexChanged(int index);
+
 private:
     Ui::MainWindow *ui;
 };
